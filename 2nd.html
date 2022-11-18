@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krist Novoselic & Dave Grohl</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <style>
+      #grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2vw;
+      }
+      #grid > div {
+        font-size: 5vw;
+        padding: .5em;
+        background: gold;
+        text-align: center;
+      }
+      main, header, footer, aside {
+        display: grid;
+        grid-template-areas:
+        "header header header"
+        "header-mini header-mini header-mini"
+        "aside main aside-right"
+        "footer footer footer";
+      }
+      header {
+        grid-template-columns: 100% ;
+      }
+      .curt {
+        width: 30%;
+        box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+        padding: 5px;
+      }
+      .trio {
+        width: 75%;
+        box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+        padding: 5px;
+      }
+      .krist {
+        float: left;
+        margin: 7px 20px 7px 0;
+      }
+      .dave {
+        float: right;
+        margin: 7px 0 7px 20px;
+      }
+
+      @media screen and (max-width: 960px) {
+        .container .row .col-lg-12 h6 {
+          font-size: 5em;
+        }
+      }
+      @media screen and (max-width: 780px) {
+        .container .row .col-lg-12 h6 {
+          font-size: 4em;
+        }
+      }
+      .navbar-header {
+        margin-block-end: 0;
+      }
+    </style>
+    <link rel="shortcut icon" href="note.ico" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark navbar-header">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="logo-main" src="note.ico" alt="note-logo"><h1>Kurt Cobain & His Nirvana </h1></a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <header class="header-mini">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Members</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kurt Cobain</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Krist Novoselic</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Dave Grohl</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <nav>
+          <ul class="navbar-nav navbar-nav-left">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <p><em>Photo</em><br><em>Short Bio</em></p>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fw-bold" aria-current="page" href="2nd.html"
+              >Nirvana</a>
+              <p><em>2 Legends In 1 Shadow</em></p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="3rd.html"
+                >Mind Flow</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <div class="container">
+        <div class="row biography">
+          <div class="col-lg-12">
+            <img class="trio" src="trio.jpg" alt="band">
+            <h6>Nirvana</h2>
+            <h2>Krist Novoselic & Dave Grohl</h2>
+            <p class="lead"><img src="KristNovoselic.jpg" class="krist" alt="Krist" width="300"><b>Krist Anthony</b> (born May 16, 1965) is an American musician and activist. He was the bassist and co-founder of the rock band Nirvana.<br><br>
+              Novoselic and Kurt Cobain formed the band Nirvana in 1987 along with drummer Aaron Burckhard, whom they recruited. Through the late 1980s, Nirvana established themselves as part of the Seattle grunge scene and in 1989 they released their debut album Bleach. Nirvana went through a succession of drummers until 1990, when Dave Grohl joined after his former band Scream broke up. After signing with major record label DGC Records, Nirvana released their second studio album Nevermind in 1991. The band achieved worldwide fame through the success of Nevermind and the lead track off the album, "Smells Like Teen Spirit". Nirvana released In Utero in 1993, their third studio album, which was also a major success. Nirvana abruptly ended in 1994 following the death of Kurt Cobain.<br><br>
+              After Nirvana disbanded, Novoselic formed Sweet 75 in 1995 and Eyes Adrift in 2002, releasing one album with each band. From 2006 to 2009, he played in the punk rock band Flipper, and in 2011 he contributed bass and accordion to the song "I Should Have Known" on the Foo Fighters' studio album Wasting Light. Since 2017, he has played bass and accordion for the band Giants in the Trees.<br><br>
+              Outside of music, Novoselic has been active politically, being involved in the formation of a PAC named JAMPAC (Joint Artists and Musicians Political Action Committee). From 2007 through 2010, he wrote a weekly column on music and politics for the Seattle Weekly website. He served on the board of the electoral reform organization FairVote from 2005 to 2019, including 11 years as chair, and in 2020 became board chair of Zócalo Public Square.
+              </p>
+            <hr>
+            <p class="lead"><img src="DaveGrohl.jpg" class="dave" alt="dave" width="300"><b>David Eric Grohl</b> (born January 14, 1969) is an American musician. He is the founder of the rock band Foo Fighters, for which he is the singer, guitarist, and primary songwriter. He was the drummer for Nirvana from 1990 to 1994.<br><br>
+              At 17, Grohl joined the punk rock band Scream after the departure of their drummer Kent Stax. Grohl became the drummer for Nirvana after Scream broke up in 1990. Nirvana's second album, Nevermind (1991), was the first to feature Grohl on drums and became a worldwide success. After Nirvana disbanded following the death of lead singer Kurt Cobain in April 1994, Grohl formed Foo Fighters as a one-man project. The first Foo Fighters album was released in 1995, and a full band was assembled to tour and record under the Foo Fighters name; they have released 10 studio albums.<br><br>
+              Grohl is the drummer and co-founder of the rock supergroup Them Crooked Vultures, and has recorded and toured with Queens of the Stone Age. He has also participated in the side projects Late! and Probot. Grohl began directing Foo Fighters music videos in 1997 and released his debut documentary, Sound City, in 2013. It was followed by the documentary miniseries Sonic Highways (2014) and the documentary film What Drives Us (2021). In 2021, Grohl released an autobiography, The Storyteller: Tales of Life and Music. In 2022, Grohl and the Foo Fighters starred as themselves in the comedy horror film Studio 666.<br><br>
+              In 2010, he was described by Classic Rock Drummers co-author Ken Micallef as one of the most influential rock musicians of the last 20 years. Grohl was inducted into the Rock and Roll Hall of Fame as part of Nirvana in 2014 and as a member of Foo Fighters in 2021.
+              </p>
+          </div>
+        </div>
+      </div>
+      <aside class="aside-right">
+        <nav>
+          <ul class="navbar-nav navbar-nav-right">
+              <h5>My Contacts</h5>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="https://t.me/v4lden" target="_blank"
+                >Telegram</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </aside>
+    </main>
+    <footer>
+      <p>© 2022 Prokopenko Denis</p>
+    </footer>
+  </body>
+</html>
